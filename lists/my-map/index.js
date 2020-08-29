@@ -33,8 +33,8 @@ const fruits = [
   },
 ];
 
-const namesOfFruits = fruits.myMap((fruit) => fruit.name);
+const fruitsNames = fruits.myMap((fruit) => fruit.name);
 
-console.log(namesOfFruits);
+console.log(fruitsNames);
 
 main();
